@@ -46,8 +46,6 @@ public class Biomimicry
 
     // Creates a new Block with the id "biomimicry:example_block", combining the namespace and path
     public static final RegistryObject<Block> WASHED_CACTUS = BLOCKS.register("washed_cactus", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
-    // Creates a new BlockItem with the id "biomimicry:example_block", combining the namespace and path
-    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("washed_cactus", () -> new BlockItem(WASHED_CACTUS.get(), new Item.Properties()));
 
     // Creates a new food item with the id "biomimicry:example_id", nutrition 1 and saturation 2
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
@@ -102,7 +100,7 @@ public class Biomimicry
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-            event.accept(EXAMPLE_BLOCK_ITEM);
+            event.accept(WASHED_CACTUS);
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
