@@ -1,6 +1,7 @@
 package tm.wither.biomimicry;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import tm.wither.biomimicry.item.Items;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Biomimicry.MOD_ID)
@@ -25,6 +27,8 @@ public class Biomimicry {
 
     public Biomimicry() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        Items.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -41,7 +45,13 @@ public class Biomimicry {
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {}
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(Items.CACTUS_FIBER);
+            event.accept(Items.CACTUS_PULP);
+            event.accept(Items.RAW_LEATHER);
+        }
+    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
