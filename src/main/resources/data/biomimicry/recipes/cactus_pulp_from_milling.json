@@ -1,0 +1,25 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "biomimicry:wet_cactus"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+	  "item": "biomimicry:cactus_pulp",
+      "count": 2
+     },
+    {
+      "chance": 0.25,
+      "item": "biomimicry:cactus_pulp",
+      "count": 3
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:green_dye",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "biomimicry:washed_cactus"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "biomimicry:cactus_pulp",
+      "count": 4
+    },
+    {
+      "chance": 0.4,
+      "item": "biomimicry:cactus_pulp",
+      "count": 3
+    }
+  ]
+}

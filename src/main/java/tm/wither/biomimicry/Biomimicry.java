@@ -15,7 +15,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import tm.wither.biomimicry.item.Items;
+import tm.wither.biomimicry.block.ModBlocks;
+import tm.wither.biomimicry.item.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Biomimicry.MOD_ID)
@@ -28,7 +29,8 @@ public class Biomimicry {
     public Biomimicry() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Items.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -47,9 +49,21 @@ public class Biomimicry {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(Items.CACTUS_FIBER);
-            event.accept(Items.CACTUS_PULP);
-            event.accept(Items.RAW_LEATHER);
+            event.accept(ModItems.CACTUS_FIBER);
+            event.accept(ModItems.CACTUS_PULP);
+            event.accept(ModItems.RAW_LEATHER);
+            event.accept(ModItems.DRIED_CACTUS_PULP);
+            event.accept(ModItems.DULL_CACTUS_SPIKE);
+            event.accept(ModItems.CLEAN_SWEET_BERRY);
+            event.accept(ModItems.LONELY_SWEET_BERRY);
+            event.accept(ModItems.BROKEN_STICK);
+
+        }
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.CACTUS_SPIKE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.WASHED_CACTUS);
         }
     }
 

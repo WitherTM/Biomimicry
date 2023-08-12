@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "biomimicry:lonely_sweet_berry"
+    }
+  ],
+  "result": [
+    {
+    "item": "biomimicry:sweet_berry",
+    "count": 1
+  },
+  {
+  "count": 1,
+  "item": "biomimicry:broken_stick"
+    }
+  ]
+}
+

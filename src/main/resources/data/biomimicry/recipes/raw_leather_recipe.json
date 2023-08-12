@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "biomimicry:cactus_fiber"
+    },
+     {
+      "item": "biomimicry:cactus_fiber"
+    },
+     {
+      "item": "biomimicry:cactus_fiber"
+    },
+     {
+      "item": "biomimicry:cactus_fiber"
+    },
+     {
+      "item": "biomimicry:cactus_fiber"
+    },
+     {
+      "item": "biomimicry:cactus_fiber"
+    },
+     {
+      "item": "biomimicry:cactus_fiber"
+    },
+     {
+      "item": "biomimicry:cactus_fiber"
+    },
+    {
+      "amount": 100,
+      "fluid": "create:honey",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "biomimicry:raw_leather"
+    }
+  ]
+}

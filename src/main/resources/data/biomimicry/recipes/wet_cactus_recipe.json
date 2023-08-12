@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "results": [
+    {
+      "item": "animalistics:wet_cactus"
+    }
+  ]
+}
