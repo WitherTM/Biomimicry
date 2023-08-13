@@ -1,5 +1,6 @@
-{   "parent": "minecraft:block/block",
-    "ambientocclusion": true,
+{
+    "parent": "minecraft:block/block",
+    "ambientocclusion": false,
     "textures": {
         "particle": "biomimicry:block/washed_cactus_side",
         "bottom": "biomimicry:block/washed_cactus_bottom",
