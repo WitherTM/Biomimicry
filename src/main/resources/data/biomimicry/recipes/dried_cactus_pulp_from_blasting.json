@@ -3,7 +3,7 @@
   "experience": 2,
   "cookingtime": 100,
   "ingredient": {
-    "item": "animalistics:cactus_pulp"
+    "item": "biomimicry:cactus_pulp"
   },
-  "result": "animalistics:dried_cactus_pulp"
+  "result": "biomimicry:dried_cactus_pulp"
 }

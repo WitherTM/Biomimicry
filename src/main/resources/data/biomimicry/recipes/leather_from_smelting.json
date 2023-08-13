@@ -3,7 +3,7 @@
   "experience": 1,
   "cookingtime": 200,
   "ingredient": {
-    "item": "animalistics:raw_leather"
+    "item": "biomimicry:raw_leather"
   },
   "result": "minecraft:leather"
 }
