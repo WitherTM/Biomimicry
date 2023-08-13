@@ -30,7 +30,6 @@ public class WashedCactusBlock extends CactusBlock {
                 return false;
             }
         }
-
         // Now we get the block below us.
         BlockState blockstate1 = levelReader.getBlockState(blockPos.below());
 
