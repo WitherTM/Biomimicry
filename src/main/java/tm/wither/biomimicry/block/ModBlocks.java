@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
+import tm.wither.biomimicry.block.custom.WashedCactusBlock;
 import tm.wither.biomimicry.item.ModItems;
 
 import java.util.function.Supplier;
@@ -19,7 +20,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Biomimicry.MOD_ID);
     public static final RegistryObject<CactusBlock> WASHED_CACTUS = registerBlock("washed_cactus",
-            () -> new CactusBlock(BlockBehaviour.Properties.copy(Blocks.CACTUS)));
+            () -> new WashedCactusBlock(BlockBehaviour.Properties.copy(Blocks.CACTUS)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

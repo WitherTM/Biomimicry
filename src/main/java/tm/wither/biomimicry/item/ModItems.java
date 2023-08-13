@@ -32,7 +32,7 @@ public class ModItems {
 
 
     public static final RegistryObject<SwordItem> CACTUS_SPIKE = ITEMS.register("cactus_spike",
-            () -> new SwordItem(Tiers.STONE, 6, 3.5f, new Item.Properties()));
+            () -> new SwordItem(Tiers.STONE, 6, -2.5f, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
