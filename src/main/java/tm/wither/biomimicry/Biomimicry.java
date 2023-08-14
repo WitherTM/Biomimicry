@@ -59,6 +59,8 @@ public class Biomimicry {
             event.accept(ModItems.CLEAN_SWEET_BERRY);
             event.accept(ModItems.LONELY_SWEET_BERRY);
             event.accept(ModItems.BROKEN_STICK);
+            event.accept(ModItems.MEAT_PASTE);
+            event.accept(ModItems.CARROT_PASTE);
 
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -66,6 +68,12 @@ public class Biomimicry {
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.WASHED_CACTUS);
+        }
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.LONELY_SWEET_BERRY);
+            event.accept(ModItems.CLEAN_SWEET_BERRY);
+            event.accept(ModItems.SWEET_BERRY_PASTE);
+            event.accept(ModItems.CHOPPED_CARROTS);
         }
     }
 

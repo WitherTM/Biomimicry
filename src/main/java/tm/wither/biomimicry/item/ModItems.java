@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
-import tm.wither.biomimicry.block.custom.CactusSpikeItem;
+import tm.wither.biomimicry.item.custom.CactusSpikeItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -30,10 +30,18 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public  static final RegistryObject<Item> CLEAN_SWEET_BERRY = ITEMS.register("clean_sweet_berry",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SWEET_BERRY_PASTE = ITEMS.register("sweet_berry_paste",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHOPPED_CARROTS = ITEMS.register("chopped_carrots",
+            () -> new Item(new Item.Properties().food(ModFoods.CHOPPED_CARROTS)));
 
+    public static final RegistryObject<Item> CARROT_PASTE = ITEMS.register("carrot_paste",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEAT_PASTE = ITEMS.register("meat_paste",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<SwordItem> CACTUS_SPIKE = ITEMS.register("cactus_spike",
-            () -> new CactusSpikeItem(Tiers.STONE, 6, -2.5f, new Item.Properties().durability(512)));
+            () -> new CactusSpikeItem(Tiers.STONE, 6, -3.5f, new Item.Properties().durability(512)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
