@@ -1,0 +1,12 @@
+{
+  "type": "create:plating",
+  "ingredients": [
+    {
+      "item": "minecraft:clean_sweet_berry"
+    }
+  ],
+  "result": {
+    "item": "biomimicry:berry_paste",
+    "count": 1
+  }
+}
