@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
+import tm.wither.biomimicry.block.custom.CactusSpikeItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -32,7 +33,7 @@ public class ModItems {
 
 
     public static final RegistryObject<SwordItem> CACTUS_SPIKE = ITEMS.register("cactus_spike",
-            () -> new SwordItem(Tiers.STONE, 6, -2.5f, new Item.Properties()));
+            () -> new CactusSpikeItem(Tiers.STONE, 6, -2.5f, new Item.Properties().durability(512)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
