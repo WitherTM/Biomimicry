@@ -11,9 +11,9 @@ public class CactusSpikeItem extends SwordItem {
 
     }
     @Override
-    public boolean isValidRepairItem(ItemStack stack, ItemStack stack1) {
-        super.isValidRepairItem(stack, stack1);
-        return stack.getItem().equals(ModItems.DULL_CACTUS_SPIKE.get());
+    public boolean isValidRepairItem(ItemStack stack, ItemStack repairStack) {
+        super.isValidRepairItem(stack, repairStack);
+        return repairStack.getItem().equals(ModItems.DULL_CACTUS_SPIKE.get());
 
     }
 }
