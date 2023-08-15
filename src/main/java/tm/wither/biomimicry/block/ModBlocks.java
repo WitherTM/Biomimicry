@@ -13,7 +13,6 @@ import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
 import tm.wither.biomimicry.block.custom.WashedCactusBlock;
 import tm.wither.biomimicry.item.ModItems;
-
 import java.util.function.Supplier;
 
 public class ModBlocks {
