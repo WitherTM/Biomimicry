@@ -5,6 +5,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CactusBlock;
+import net.minecraft.world.level.block.GrassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,6 +21,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Biomimicry.MOD_ID);
     public static final RegistryObject<CactusBlock> WASHED_CACTUS = registerBlock("washed_cactus",
             () -> new WashedCactusBlock(BlockBehaviour.Properties.copy(Blocks.CACTUS)));
+    public static final RegistryObject<GrassBlock> WHEAT_GRASS = registerBlock("wheat_grass",
+            () -> new GrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -36,5 +39,4 @@ public class ModBlocks {
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
-
 }

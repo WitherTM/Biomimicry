@@ -1,0 +1,12 @@
+{
+  "type": "create:plating",
+  "ingredients": [
+    {
+      "item": "minecraft:chopped_carrots"
+    }
+  ],
+  "result": {
+    "item": "biomimicry:carrot_paste",
+    "count": 1
+  }
+}

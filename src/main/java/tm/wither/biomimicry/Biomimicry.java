@@ -68,6 +68,7 @@ public class Biomimicry {
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.WASHED_CACTUS);
+            event.accept(ModBlocks.WHEAT_GRASS);
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.LONELY_SWEET_BERRY);
@@ -89,6 +90,7 @@ public class Biomimicry {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.WASHED_CACTUS.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.WHEAT_GRASS.get(), RenderType.cutout());
         }
     }
 }

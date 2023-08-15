@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": [
+    {
+      "item": "biomimicry:chopped_carrots"
+    },
+    {
+      "chance": 0.2,
+      "count": 2,
+      "item": "biomimicry:chopped_carrots"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

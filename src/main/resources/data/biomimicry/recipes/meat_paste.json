@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "biomimicry:carrot_paste"
+    },
+    {
+      "item": "biomimicry:sweet_berry_paste"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "amount": 200,
+      "fluid": "create:chocolate",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "biomimicry:meat_paste"
+    }
+  ]
+}
