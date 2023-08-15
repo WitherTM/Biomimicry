@@ -41,7 +41,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<SwordItem> CACTUS_SPIKE = ITEMS.register("cactus_spike",
-            () -> new CactusSpikeItem(Tiers.STONE, 6, -3.5f, new Item.Properties().durability(512)));
+            () -> new CactusSpikeItem(Tiers.STONE, 6, -3.5f, new Item.Properties().durability(584)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
