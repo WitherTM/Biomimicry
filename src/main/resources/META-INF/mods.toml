@@ -16,7 +16,7 @@ issueTrackerURL="https://github.com/WitherTM/Biomimicry/issues"
 # The modid of the mod
 modId="biomimicry" #mandatory
 # The version number of the mod
-version="0.2-beta1" #mandatory
+version="0.2-beta2" #mandatory
 # A display name for the mod
 displayName="Create: Biomimicry" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
@@ -75,7 +75,20 @@ description='''The act of copying animals' abililities for your own benefit.'''
     versionRange="[1.7.2.d-9,)"
     ordering="NONE"
     side="BOTH"
-
+[[dependencies.biomimicry]]
+    modId="farmersdelight"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.2.3,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.biomimicry]]
+    modId="sliceanddice"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[3.1.1,)"
+    ordering="NONE"
+    side="BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.
