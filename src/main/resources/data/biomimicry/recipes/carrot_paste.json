@@ -1,12 +1,13 @@
 {
-  "type": "create:plating",
+  "type": "create:pressing",
   "ingredients": [
     {
-      "item": "minecraft:chopped_carrots"
+      "item": "biomimicry:chopped_carrots"
     }
   ],
-  "result": {
-    "item": "biomimicry:carrot_paste",
-    "count": 1
-  }
+  "results": [
+    {
+      "item": "biomimicry:carrot_paste"
+    }
+  ]
 }
