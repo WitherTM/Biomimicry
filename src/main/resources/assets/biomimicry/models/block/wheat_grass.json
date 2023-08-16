@@ -1,6 +1,6 @@
 {
-  "parent": "block/crop",
+  "parent": "minecraft:block/tinted_cross",
   "textures": {
-    "all": "biomimicry:block/wheat_grass"
+    "cross": "biomimicry:block/wheat_grass"
   }
 }
