@@ -7,7 +7,6 @@ import net.minecraft.tags.FluidTags;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.CactusBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import org.jetbrains.annotations.NotNull;
 import tm.wither.biomimicry.block.ModBlocks;
 
 public class WashedCactusBlock extends CactusBlock {
@@ -16,18 +15,16 @@ public class WashedCactusBlock extends CactusBlock {
     }
 
     @Override
-    public boolean canSurvive(@NotNull BlockState blockState, @NotNull LevelReader levelReader, @NotNull BlockPos blockPos)
+    public boolean canSurvive(BlockState blockState, LevelReader levelReader, BlockPos blockPos)
     {
         // Checks the blocks in the North, East, South, West direction.
-        for(Direction direction : Direction.Plane.HORIZONTAL)
-        {
+        for(Direction direction : Direction.Plane.HORIZONTAL) {
             // Gets the block in its current state from the current direction.
             BlockState blockstate = levelReader.getBlockState(blockPos.relative(direction));
 
             // Check if the block is solid (full block like a stone or a redstone lamp)
             // Also checks if there are any lava (Lava isn't a full block that's why it has to check that specifically)
-            if (blockstate.isSolid() || levelReader.getFluidState(blockPos.relative(direction)).is(FluidTags.LAVA))
-            {
+            if (blockstate.isSolid() || levelReader.getFluidState(blockPos.relative(direction)).is(FluidTags.LAVA)) {
                 return false;
             }
         }

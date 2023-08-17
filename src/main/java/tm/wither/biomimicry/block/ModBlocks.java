@@ -5,7 +5,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CactusBlock;
-import net.minecraft.world.level.block.GrassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
 import tm.wither.biomimicry.block.custom.WashedCactusBlock;
+import tm.wither.biomimicry.block.custom.WheatGrassBlock;
 import tm.wither.biomimicry.item.ModItems;
 import java.util.function.Supplier;
 
@@ -21,8 +21,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Biomimicry.MOD_ID);
     public static final RegistryObject<CactusBlock> WASHED_CACTUS = registerBlock("washed_cactus",
             () -> new WashedCactusBlock(BlockBehaviour.Properties.copy(Blocks.CACTUS)));
-    public static final RegistryObject<GrassBlock> WHEAT_GRASS = registerBlock("wheat_grass",
-            () -> new GrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS)));
+    public static final RegistryObject<Block> WHEAT_GRASS = registerBlock("wheat_grass",
+            () -> new WheatGrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
