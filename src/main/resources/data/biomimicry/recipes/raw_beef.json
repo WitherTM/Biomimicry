@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "biomimicry:meat_paste"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:raw_beef"
+    }
+  ]
+}
