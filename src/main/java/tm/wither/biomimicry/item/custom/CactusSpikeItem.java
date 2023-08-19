@@ -7,8 +7,8 @@ import org.jetbrains.annotations.NotNull;
 import tm.wither.biomimicry.item.ModItems;
 
 public class CactusSpikeItem extends SwordItem {
-    public CactusSpikeItem(Tier tier, int damage, float attackSpeed, Properties properties) {
-        super(tier, damage, attackSpeed, properties);
+    public CactusSpikeItem(Tier tier, int pDamage, float attackSpeed, Properties properties) {
+        super(tier, pDamage, attackSpeed, properties);
 
     }
     @Override

@@ -70,6 +70,7 @@ public class Biomimicry {
             event.accept(ModItems.CLEAN_SWEET_BERRY);
             event.accept(ModItems.SWEET_BERRY_PASTE);
             event.accept(ModItems.CHOPPED_CARROTS);
+            event.accept(ModItems.WHEAT_RICE_MIX);
         }
     }
 

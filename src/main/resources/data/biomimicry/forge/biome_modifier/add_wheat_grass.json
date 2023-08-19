@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#forge:is_plains",
+  "biomes": "minecraft:badlands",
   "features": "biomimicry:wheat_grass_patch",
   "step": "vegetal_decoration"
 }

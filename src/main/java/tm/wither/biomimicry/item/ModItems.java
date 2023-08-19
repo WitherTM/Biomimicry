@@ -39,6 +39,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MEAT_PASTE = ITEMS.register("meat_paste",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WHEAT_RICE_MIX = ITEMS.register("wheat_rice_mix",
+            () -> new Item(new Item.Properties()));
+
 
     public static final RegistryObject<SwordItem> CACTUS_SPIKE = ITEMS.register("cactus_spike",
             () -> new CactusSpikeItem(Tiers.STONE, 6, -3.5f, new Item.Properties().durability(584)));
