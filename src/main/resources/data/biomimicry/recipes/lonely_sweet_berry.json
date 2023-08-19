@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": [
+    {
+      "item": "biomimicry:lonely_sweet_berry",
+      "count": 2
+    },
+    {
+      "chance": 0.2,
+      "count": 1,
+      "item": "biomimicry:lonely_sweet_berry"
+    }
+  ],
+  "tool": {
+    "item": "minecraft:shears"
+  }
+}
