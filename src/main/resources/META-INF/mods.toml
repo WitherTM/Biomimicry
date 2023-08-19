@@ -8,7 +8,7 @@ modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the the FML version. This is currently 47.
 loaderVersion="MIT" #mandatory
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
-license="Apache License version 2.0"
+license="GNU GPLv3"
 # A URL to refer people to when problems occur with this mod
 issueTrackerURL="https://github.com/WitherTM/Biomimicry/issues"
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -16,7 +16,7 @@ issueTrackerURL="https://github.com/WitherTM/Biomimicry/issues"
 # The modid of the mod
 modId="biomimicry" #mandatory
 # The version number of the mod
-version="0.2-beta2" #mandatory
+version="0.2-beta3" #mandatory
 # A display name for the mod
 displayName="Create: Biomimicry" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
@@ -26,7 +26,7 @@ displayName="Create: Biomimicry" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="Coded by WitherTM and (most) textures by Footerman15"
 # A text field displayed in the mod UI
 authors="WitherTM" #optional
 # Display Test controls the display for your mod in the server connection screen
