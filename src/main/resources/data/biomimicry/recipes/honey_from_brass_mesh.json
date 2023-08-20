@@ -14,17 +14,17 @@
 			"chance": 0.25
 		}, 
 		{ 
-			"item": "biomimicry:cactus_spike", 
+			"item": "farmersdelight:cooked_rice",
 			"chance": 0.25
 		}, 
 		{ 
 			"item": "minecraft:honey_bottle",
 			"chance": 0.5,
 			"nbt": {}
-		}, 
-		{ 
-			"item": "biomimicry:dull_cactus_spike",
-			"chance": 0.1
+		},
+		{
+			"item": "minecraft:bowl",
+			"chance": 0.8
 		},
 		{ 
 			"item": "biomimicry:wheat_grass",

@@ -2,7 +2,8 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "biomimicry:chopped_carrots"
+      "item": "biomimicry:chopped_carrots",
+      "count": 5
     }
   ],
   "results": [
