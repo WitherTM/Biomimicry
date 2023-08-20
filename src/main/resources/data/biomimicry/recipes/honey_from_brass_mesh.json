@@ -18,8 +18,7 @@
 			"chance": 0.25
 		}, 
 		{ 
-			"fluid": "create:honey",
-			"amount": 200,
+			"item": "minecraft:honey_bottle",
 			"chance": 0.5,
 			"nbt": {}
 		}, 
