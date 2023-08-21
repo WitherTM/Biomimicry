@@ -2,12 +2,19 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "farmersdelight:cooked_rice",
-      "count": 4
+      "item": "farmersdelight:cooked_rice"
     },
     {
-      "item": "biomimicry:wheat_grass",
-      "count": 6
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "biomimicry:wheat_grass"
+    },
+    {
+      "item": "biomimicry:wheat_grass"
     },
     {
       "fluid": "minecraft:water",

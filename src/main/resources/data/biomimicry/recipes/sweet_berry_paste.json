@@ -2,8 +2,7 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "biomimicry:clean_sweet_berry",
-      "count": 3
+      "item": "biomimicry:clean_sweet_berry"
     }
   ],
   "results": [

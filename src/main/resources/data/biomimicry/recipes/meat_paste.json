@@ -2,16 +2,28 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "biomimicry:carrot_paste",
-      "count": 3
+      "item": "biomimicry:carrot_paste"
     },
     {
-      "item": "biomimicry:sweet_berry_paste",
-      "count": 3
+      "item": "biomimicry:carrot_paste"
     },
     {
-      "item": "minecraft:red_dye",
-      "count": 2
+      "item": "biomimicry:carrot_paste"
+    },
+    {
+      "item": "biomimicry:sweet_berry_paste"
+    },
+    {
+      "item": "biomimicry:sweet_berry_paste"
+    },
+    {
+      "item": "biomimicry:sweet_berry_paste"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:red_dye"
     },
     {
       "amount": 200,
