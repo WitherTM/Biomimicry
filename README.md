@@ -1,7 +1,5 @@
 
-0.2 is being worked on! (is being done right here)
-
-THIS MOD REQUIRES CREATE AND CREATE: SIFTING
+0.2 is out now!
 
 Available for Curseforge and Modrinth
 
