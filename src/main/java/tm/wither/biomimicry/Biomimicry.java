@@ -15,8 +15,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import tm.wither.biomimicry.block.ModBlocks;
-import tm.wither.biomimicry.item.ModItems;
+import tm.wither.biomimicry.common.block.ModBlocks;
+import tm.wither.biomimicry.common.item.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Biomimicry.MOD_ID)

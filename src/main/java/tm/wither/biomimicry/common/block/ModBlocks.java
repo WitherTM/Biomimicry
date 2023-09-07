@@ -1,4 +1,4 @@
-package tm.wither.biomimicry.block;
+package tm.wither.biomimicry.common.block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -11,9 +11,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
-import tm.wither.biomimicry.block.custom.WashedCactusBlock;
-import tm.wither.biomimicry.block.custom.WheatGrassBlock;
-import tm.wither.biomimicry.item.ModItems;
+import tm.wither.biomimicry.common.block.custom.WashedCactusBlock;
+import tm.wither.biomimicry.common.block.custom.WheatGrassBlock;
+import tm.wither.biomimicry.common.item.ModItems;
+
 import java.util.function.Supplier;
 
 public class ModBlocks {

@@ -1,4 +1,4 @@
-package tm.wither.biomimicry.block.custom;
+package tm.wither.biomimicry.common.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -7,7 +7,7 @@ import net.minecraft.tags.FluidTags;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.CactusBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import tm.wither.biomimicry.block.ModBlocks;
+import tm.wither.biomimicry.common.block.ModBlocks;
 
 public class WashedCactusBlock extends CactusBlock {
     public WashedCactusBlock(Properties p_49795_) {

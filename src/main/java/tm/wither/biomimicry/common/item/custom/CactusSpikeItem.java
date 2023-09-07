@@ -1,10 +1,10 @@
-package tm.wither.biomimicry.item.custom;
+package tm.wither.biomimicry.common.item.custom;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import org.jetbrains.annotations.NotNull;
-import tm.wither.biomimicry.item.ModItems;
+import tm.wither.biomimicry.common.item.ModItems;
 
 public class CactusSpikeItem extends SwordItem {
     public CactusSpikeItem(Tier tier, int pDamage, float attackSpeed, Properties properties) {
