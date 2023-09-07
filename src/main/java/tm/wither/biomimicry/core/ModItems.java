@@ -1,4 +1,4 @@
-package tm.wither.biomimicry.common.item;
+package tm.wither.biomimicry.core;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
-import tm.wither.biomimicry.common.item.custom.CactusSpikeItem;
+import tm.wither.biomimicry.common.item.CactusSpikeItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =

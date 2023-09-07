@@ -1,4 +1,4 @@
-package tm.wither.biomimicry.common.block;
+package tm.wither.biomimicry.core;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -11,9 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
-import tm.wither.biomimicry.common.block.custom.WashedCactusBlock;
-import tm.wither.biomimicry.common.block.custom.WheatGrassBlock;
-import tm.wither.biomimicry.common.item.ModItems;
+import tm.wither.biomimicry.common.block.WashedCactusBlock;
+import tm.wither.biomimicry.common.block.WheatGrassBlock;
 
 import java.util.function.Supplier;
 

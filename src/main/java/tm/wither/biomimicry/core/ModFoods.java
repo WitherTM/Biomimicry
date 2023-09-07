@@ -1,4 +1,4 @@
-package tm.wither.biomimicry.common.item;
+package tm.wither.biomimicry.core;
 
 import net.minecraft.world.food.FoodProperties;
 
