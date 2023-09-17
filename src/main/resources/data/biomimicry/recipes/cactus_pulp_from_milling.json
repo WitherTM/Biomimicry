@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "biomimicry:wet_cactus"
+      "item": "biomimicry:washed_cactus"
     }
   ],
   "processingTime": 50,
