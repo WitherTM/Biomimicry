@@ -7,7 +7,8 @@ import net.minecraft.tags.FluidTags;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.CactusBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import tm.wither.biomimicry.core.ModBlocks;
+import org.jetbrains.annotations.NotNull;
+import tm.wither.biomimicry.core.init.ModBlocks;
 
 public class WashedCactusBlock extends CactusBlock {
     public WashedCactusBlock(Properties p_49795_) {
@@ -15,7 +16,7 @@ public class WashedCactusBlock extends CactusBlock {
     }
 
     @Override
-    public boolean canSurvive(BlockState blockState, LevelReader levelReader, BlockPos blockPos)
+    public boolean canSurvive(@NotNull BlockState blockState, @NotNull LevelReader levelReader, @NotNull BlockPos blockPos)
     {
         // Checks the blocks in the North, East, South, West direction.
         for(Direction direction : Direction.Plane.HORIZONTAL) {
