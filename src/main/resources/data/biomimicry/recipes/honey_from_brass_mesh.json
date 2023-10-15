@@ -25,10 +25,6 @@
 		{
 			"item": "minecraft:bowl",
 			"chance": 0.8
-		},
-		{ 
-			"item": "biomimicry:wheat_grass",
-			"chance": 0.1
-		} 
+		}
 		], 
 		"processingTime": 250 }
