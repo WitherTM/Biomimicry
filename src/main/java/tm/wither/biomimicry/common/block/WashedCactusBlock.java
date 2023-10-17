@@ -25,7 +25,7 @@ public class WashedCactusBlock extends CactusBlock {
 
             // Check if the block is solid (full block like a stone or a redstone lamp)
             // Also checks if there are any lava (Lava isn't a full block that's why it has to check that specifically)
-            if (blockstate.isSolid() || levelReader.getFluidState(blockPos.relative(direction)).is(FluidTags.LAVA)) {
+            if (blockstate.getMaterial().isSolid() || levelReader.getFluidState(blockPos.relative(direction)).is(FluidTags.LAVA)) {
                 return false;
             }
         }
@@ -36,7 +36,7 @@ public class WashedCactusBlock extends CactusBlock {
         // 1. Is the block below us our washed cactus or a sandblock?
         // 2. Is the block above us a liquid?
         // If there are a cactus or a sand block below us and there is no liquid we return true which means that the cactus survives!
-        return (blockstate1.is(ModBlocks.WASHED_CACTUS.get()) || blockstate1.is(BlockTags.SAND)) && !levelReader.getBlockState(blockPos.above()).liquid();
+        return (blockstate1.is(ModBlocks.WASHED_CACTUS.get()) || blockstate1.is(BlockTags.SAND)) && !levelReader.getBlockState(blockPos.above()).getMaterial().isLiquid();
     }
 }
 

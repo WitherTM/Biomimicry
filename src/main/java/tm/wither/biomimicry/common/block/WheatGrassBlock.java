@@ -16,6 +16,6 @@ public class WheatGrassBlock extends BushBlock {
     @Override
     public boolean canSurvive(@NotNull BlockState blockState, @NotNull LevelReader levelReader, @NotNull BlockPos blockPos) {
         BlockState blockstate1 = levelReader.getBlockState(blockPos.below());
-        return (blockstate1.is(BlockTags.TERRACOTTA)) || (blockstate1.is(BlockTags.SAND)) && !levelReader.getBlockState(blockPos.above()).liquid();
+        return (blockstate1.is(BlockTags.TERRACOTTA)) || (blockstate1.is(BlockTags.SAND)) && !levelReader.getBlockState(blockPos.above()).getMaterial().isLiquid();
     }
 }
