@@ -16,7 +16,7 @@ issueTrackerURL="https://github.com/WitherTM/Biomimicry/issues"
 # The modid of the mod
 modId="biomimicry" #mandatory
 # The version number of the mod
-version= "0.2c-release" #mandatory
+version= "0.2c+1.20.1" #mandatory
 # A display name for the mod
 displayName="Create: Biomimicry" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/

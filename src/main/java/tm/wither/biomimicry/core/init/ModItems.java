@@ -29,16 +29,16 @@ public class ModItems {
     public static final RegistryObject<Item> DULL_CACTUS_SPIKE = ITEMS.register("dull_cactus_spike",
             () -> new Item(new Item.Properties()));
     public  static final RegistryObject<Item> CLEAN_SWEET_BERRY = ITEMS.register("clean_sweet_berry",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY)));
     public static final RegistryObject<Item> SWEET_BERRY_PASTE = ITEMS.register("sweet_berry_paste",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY)));
     public static final RegistryObject<Item> CHOPPED_CARROTS = ITEMS.register("chopped_carrots",
             () -> new Item(new Item.Properties().food(ModFoods.CHOPPED_CARROTS)));
 
     public static final RegistryObject<Item> CARROT_PASTE = ITEMS.register("carrot_paste",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MEAT_PASTE = ITEMS.register("meat_paste",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.MEAT_PASTE)));
     public static final RegistryObject<Item> WHEAT_RICE_MIX = ITEMS.register("wheat_rice_mix",
             () -> new Item(new Item.Properties()));
 
