@@ -25,7 +25,7 @@ public class ModItems {
     public static final RegistryObject<Item> BROKEN_STICK = ITEMS.register("broken_stick",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LONELY_SWEET_BERRY = ITEMS.register("lonely_sweet_berry",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY).craftRemainder(ModItems.BROKEN_STICK.get())));
     public static final RegistryObject<Item> DULL_CACTUS_SPIKE = ITEMS.register("dull_cactus_spike",
             () -> new Item(new Item.Properties()));
     public  static final RegistryObject<Item> CLEAN_SWEET_BERRY = ITEMS.register("clean_sweet_berry",
