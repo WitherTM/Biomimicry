@@ -56,7 +56,7 @@ public class Biomimicry {
 
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.CACTUS_SPIKE);
+            event.accept(ModItems.CACTUS_SPINE);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.WASHED_CACTUS);

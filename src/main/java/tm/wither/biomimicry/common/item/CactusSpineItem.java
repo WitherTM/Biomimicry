@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import org.jetbrains.annotations.NotNull;
 import tm.wither.biomimicry.core.init.ModItems;
 
-public class CactusSpikeItem extends SwordItem {
-    public CactusSpikeItem(Tier tier, int pDamage, float attackSpeed, Properties properties) {
+public class CactusSpineItem extends SwordItem {
+    public CactusSpineItem(Tier tier, int pDamage, float attackSpeed, Properties properties) {
         super(tier, pDamage, attackSpeed, properties);
 
     }
