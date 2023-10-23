@@ -9,7 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
-import tm.wither.biomimicry.common.item.CactusSpikeItem;
+import tm.wither.biomimicry.common.item.CactusSpineItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -44,8 +44,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 
 
-    public static final RegistryObject<SwordItem> CACTUS_SPIKE = ITEMS.register("cactus_spike",
-            () -> new CactusSpikeItem(Tiers.STONE, 6, -3.5f, new Item.Properties().durability(584).tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<SwordItem> CACTUS_SPINE = ITEMS.register("cactus_spine",
+            () -> new CactusSpineItem(Tiers.STONE, 6, -3.5f, new Item.Properties().durability(584).tab(CreativeModeTab.TAB_COMBAT)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
