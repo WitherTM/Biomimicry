@@ -48,10 +48,9 @@ public class Biomimicry {
             event.accept(ModItems.RAW_LEATHER);
             event.accept(ModItems.DRIED_CACTUS_PULP);
             event.accept(ModItems.DULL_CACTUS_SPIKE);
-            event.accept(ModItems.CLEAN_SWEET_BERRY);
             event.accept(ModItems.LONELY_SWEET_BERRY);
             event.accept(ModItems.BROKEN_STICK);
-            event.accept(ModItems.MEAT_PASTE);
+            event.accept(ModItems.MEAT_COMPOUND);
             event.accept(ModItems.CARROT_PASTE);
 
         }
@@ -64,8 +63,6 @@ public class Biomimicry {
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.LONELY_SWEET_BERRY);
-            event.accept(ModItems.CLEAN_SWEET_BERRY);
-            event.accept(ModItems.SWEET_BERRY_PASTE);
             event.accept(ModItems.CHOPPED_CARROTS);
             event.accept(ModItems.WHEAT_RICE_MIX);
         }
