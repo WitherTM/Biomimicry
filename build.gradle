@@ -139,7 +139,7 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.neoforged:forge:${minecraft_version}-${neo_version}"
 
-    implementation fg.deobf("curse.maven:create-328085:4626108")
+    implementation fg.deobf("curse.maven:create-328085:4762216")
     implementation fg.deobf("curse.maven:create-sifting-661938:4658387")
     implementation fg.deobf("curse.maven:farmers-delight-398521:4679319")
     implementation fg.deobf("curse.maven:slice-and-dice-659674:4688884")

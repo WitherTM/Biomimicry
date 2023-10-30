@@ -11,8 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
-import tm.wither.biomimicry.common.block.WashedCactusBlock;
-import tm.wither.biomimicry.common.block.WheatGrassBlock;
+import tm.wither.biomimicry.block.WashedCactusBlock;
+import tm.wither.biomimicry.block.WheatGrassBlock;
 
 import java.util.function.Supplier;
 

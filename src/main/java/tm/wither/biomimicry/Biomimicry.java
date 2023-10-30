@@ -28,6 +28,7 @@ public class Biomimicry {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -55,7 +56,7 @@ public class Biomimicry {
 
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.CACTUS_SPINE);
+            event.accept(ModItems.CACTUS_SPEAR);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.WASHED_CACTUS);

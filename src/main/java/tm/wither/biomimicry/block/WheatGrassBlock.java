@@ -1,4 +1,4 @@
-package tm.wither.biomimicry.common.block;
+package tm.wither.biomimicry.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
