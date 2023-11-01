@@ -24,15 +24,17 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LONELY_SWEET_BERRY = ITEMS.register("lonely_sweet_berry",
             () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY)));
-    public static final RegistryObject<Item> DULL_CACTUS_SPIKE = ITEMS.register("dull_cactus_spike",
+    public static final RegistryObject<Item> DULL_CACTUS_SPINE = ITEMS.register("dull_cactus_spine",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CACTUS_SPINE = ITEMS.register("dull_cactus_spine",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHOPPED_CARROTS = ITEMS.register("chopped_carrots",
             () -> new Item(new Item.Properties().food(ModFoods.CHOPPED_CARROTS)));
 
     public static final RegistryObject<Item> CARROT_PASTE = ITEMS.register("carrot_paste",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MEAT_COMPOUND = ITEMS.register("meat_compound",
-            () -> new Item(new Item.Properties().food(ModFoods.MEAT_COMPOUND)));
+    public static final RegistryObject<Item> MEAT_PASTE = ITEMS.register("meat_paste",
+            () -> new Item(new Item.Properties().food(ModFoods.MEAT_PASTE)));
     public static final RegistryObject<Item> WHEAT_RICE_MIX = ITEMS.register("wheat_rice_mix",
             () -> new Item(new Item.Properties()));
 

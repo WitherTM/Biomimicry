@@ -50,10 +50,11 @@ public class Biomimicry {
             event.accept(ModItems.CACTUS_PULP);
             event.accept(ModItems.RAW_LEATHER);
             event.accept(ModItems.DRIED_CACTUS_PULP);
-            event.accept(ModItems.DULL_CACTUS_SPIKE);
+            event.accept(ModItems.CACTUS_SPINE);
+            event.accept(ModItems.DULL_CACTUS_SPINE);
             event.accept(ModItems.LONELY_SWEET_BERRY);
             event.accept(ModItems.BROKEN_STICK);
-            event.accept(ModItems.MEAT_COMPOUND);
+            event.accept(ModItems.MEAT_PASTE);
             event.accept(ModItems.CARROT_PASTE);
 
         }
