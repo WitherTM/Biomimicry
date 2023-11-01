@@ -1,43 +1,36 @@
-[30Oct2023 22:46:34.878] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 20.2.4-beta, --assetIndex, asset-index, --assetsDir, C:\Users\maxvd\IdeaProjects\Biomimicry\build\neoForm\neoFormJoined1.20.2-20231019.002635\steps\downloadAssets, --gameDir, ., --fml.neoForgeVersion, 20.2.4-beta, --fml.fmlVersion, 1.0.2, --fml.mcVersion, 1.20.2, --fml.neoFormVersion, 20231019.002635]
-[30Oct2023 22:46:34.888] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[30Oct2023 22:46:35.205] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[30Oct2023 22:46:35.440] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[30Oct2023 22:46:35.746] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[30Oct2023 22:46:36.025] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/maxvd/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23105!/ Service=ModLauncher Env=CLIENT
-[30Oct2023 22:46:36.043] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 27.20.100.8190, Intel
-[30Oct2023 22:46:36.774] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\language-minecraft\1.0.2\14fc2b355953e85883c96961fcf4b6d6ed8e19b6\language-minecraft-1.0.2.jar is missing mods.toml file
-[30Oct2023 22:46:36.787] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\language-lowcode\1.0.2\c12ee500192fe25576d08c0c552c04773aeefd81\language-lowcode-1.0.2.jar is missing mods.toml file
-[30Oct2023 22:46:36.800] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\language-java\1.0.2\84bdde786082cf849550c0ea76eba3b27ee3093d\language-java-1.0.2.jar is missing mods.toml file
-[30Oct2023 22:46:36.813] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\core\1.0.2\18ff8b20ec326372b11fc3032e9cdaf3cd8e3092\core-1.0.2.jar is missing mods.toml file
-[30Oct2023 22:46:36.857] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-minecraft-1.0.2.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@3704122f
-[30Oct2023 22:46:36.858] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-lowcode-1.0.2.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@3704122f
-[30Oct2023 22:46:36.858] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-java-1.0.2.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@3704122f
-[30Oct2023 22:46:36.859] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "core-1.0.2.jar" of type LIBRARY with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@3704122f
-[30Oct2023 22:46:36.860] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.2.4-beta.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@3704122f
-[30Oct2023 22:46:36.860] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@3704122f
-[30Oct2023 22:46:36.861] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@3704122f
-[30Oct2023 22:46:36.915] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "events-1.0.2.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@18ca3c62
-[30Oct2023 22:46:37.048] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[30Oct2023 22:46:40.918] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 20.2.4-beta, --gameDir, ., --assetsDir, C:\Users\maxvd\IdeaProjects\Biomimicry\build\neoForm\neoFormJoined1.20.2-20231019.002635\steps\downloadAssets, --assetIndex, asset-index]
-[30Oct2023 22:46:52.724] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 192 Datafixer optimizations took 715 milliseconds
-[30Oct2023 22:46:58.611] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxvd/IdeaProjects/Biomimicry/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.2.4-beta/neoforge-20.2.4-beta.jar%23188!/assets/.mcassetsroot' uses unexpected schema
-[30Oct2023 22:46:58.613] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxvd/IdeaProjects/Biomimicry/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.2.4-beta/neoforge-20.2.4-beta.jar%23188!/data/.mcassetsroot' uses unexpected schema
-[30Oct2023 22:46:58.661] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[30Oct2023 22:46:58.702] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[30Oct2023 22:46:58.999] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
-[30Oct2023 22:47:00.698] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.2.4-beta, for MC 1.20.2 with MCP 20231019.002635
-[30Oct2023 22:47:03.309] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
-[30Oct2023 22:47:03.748] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[30Oct2023 22:47:03.810] [modloading-worker-0/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Configuration file C:\Users\maxvd\IdeaProjects\Biomimicry\runs\client\config\neoforge-client.toml is not correct. Correcting
-[30Oct2023 22:47:03.812] [modloading-worker-0/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[30Oct2023 22:47:03.812] [modloading-worker-0/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
-[30Oct2023 22:47:03.813] [modloading-worker-0/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
-[30Oct2023 22:47:03.813] [modloading-worker-0/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
-[30Oct2023 22:47:03.813] [modloading-worker-0/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
-[30Oct2023 22:47:03.813] [modloading-worker-0/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
-[30Oct2023 22:47:04.017] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[30Oct2023 22:47:04.066] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [neoforge] Starting version check at https://maven.neoforged.net/releases/net/neoforged/forge/promotions_slim.json
-[30Oct2023 22:47:05.050] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+[01Nov2023 11:48:42.564] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 20.2.20-beta, --assetIndex, asset-index, --assetsDir, C:\Users\maxvd\IdeaProjects\Biomimicry\build\neoForm\neoFormJoined1.20.2-20231019.002635\steps\downloadAssets, --gameDir, ., --fml.neoForgeVersion, 20.2.20-beta, --fml.fmlVersion, 1.0.2, --fml.mcVersion, 1.20.2, --fml.neoFormVersion, 20231019.002635]
+[01Nov2023 11:48:42.572] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[01Nov2023 11:48:42.840] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[01Nov2023 11:48:43.086] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[01Nov2023 11:48:43.381] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[01Nov2023 11:48:43.664] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/maxvd/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23105!/ Service=ModLauncher Env=CLIENT
+[01Nov2023 11:48:43.705] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 27.20.100.8190, Intel
+[01Nov2023 11:48:45.087] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\language-minecraft\1.0.2\14fc2b355953e85883c96961fcf4b6d6ed8e19b6\language-minecraft-1.0.2.jar is missing mods.toml file
+[01Nov2023 11:48:45.106] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\language-lowcode\1.0.2\c12ee500192fe25576d08c0c552c04773aeefd81\language-lowcode-1.0.2.jar is missing mods.toml file
+[01Nov2023 11:48:45.131] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\language-java\1.0.2\84bdde786082cf849550c0ea76eba3b27ee3093d\language-java-1.0.2.jar is missing mods.toml file
+[01Nov2023 11:48:45.151] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxvd\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\core\1.0.2\18ff8b20ec326372b11fc3032e9cdaf3cd8e3092\core-1.0.2.jar is missing mods.toml file
+[01Nov2023 11:48:45.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-minecraft-1.0.2.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@28a2a3e7
+[01Nov2023 11:48:45.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-lowcode-1.0.2.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@28a2a3e7
+[01Nov2023 11:48:45.203] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-java-1.0.2.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@28a2a3e7
+[01Nov2023 11:48:45.203] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "core-1.0.2.jar" of type LIBRARY with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@28a2a3e7
+[01Nov2023 11:48:45.204] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.2.20-beta.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@28a2a3e7
+[01Nov2023 11:48:45.204] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@28a2a3e7
+[01Nov2023 11:48:45.205] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@28a2a3e7
+[01Nov2023 11:48:45.259] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "events-1.0.2.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@6aa648b9
+[01Nov2023 11:48:45.434] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01Nov2023 11:48:48.780] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 20.2.20-beta, --gameDir, ., --assetsDir, C:\Users\maxvd\IdeaProjects\Biomimicry\build\neoForm\neoFormJoined1.20.2-20231019.002635\steps\downloadAssets, --assetIndex, asset-index]
+[01Nov2023 11:48:57.466] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 192 Datafixer optimizations took 422 milliseconds
+[01Nov2023 11:49:01.478] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxvd/IdeaProjects/Biomimicry/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.2.20-beta/neoforge-20.2.20-beta.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[01Nov2023 11:49:01.478] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxvd/IdeaProjects/Biomimicry/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.2.20-beta/neoforge-20.2.20-beta.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[01Nov2023 11:49:01.505] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01Nov2023 11:49:01.523] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[01Nov2023 11:49:01.773] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
+[01Nov2023 11:49:02.705] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.2.20-beta, for MC 1.20.2 with MCP 20231019.002635
+[01Nov2023 11:49:04.620] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[01Nov2023 11:49:04.977] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[01Nov2023 11:49:05.247] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[01Nov2023 11:49:05.294] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [neoforge] Starting version check at https://maven.neoforged.net/releases/net/neoforged/forge/promotions_slim.json
+[01Nov2023 11:49:06.086] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1238) ~[gson-2.10.jar%23107!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.jar%23107!/:?]
@@ -52,35 +45,1237 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23107!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.jar%23107!/:?]
 	... 6 more
-[30Oct2023 22:47:07.008] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'biomimicry:dull_cactus_spike#inventory' referenced from: biomimicry:dull_cactus_spike#inventory: java.io.FileNotFoundException: biomimicry:models/item/dull_cactus_spike.json
-[30Oct2023 22:47:07.009] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'biomimicry:meat_compound#inventory' referenced from: biomimicry:meat_compound#inventory: java.io.FileNotFoundException: biomimicry:models/item/meat_compound.json
-[30Oct2023 22:47:07.009] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'biomimicry:cactus_spear#inventory' referenced from: biomimicry:cactus_spear#inventory: java.io.FileNotFoundException: biomimicry:models/item/cactus_spear.json
-[30Oct2023 22:47:11.395] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[30Oct2023 22:47:11.396] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[30Oct2023 22:47:11.550] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Realtek HD Audio 2nd output (Realtek(R) Audio)
-[30Oct2023 22:47:11.552] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[30Oct2023 22:47:11.793] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[30Oct2023 22:47:12.605] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[30Oct2023 22:47:12.622] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[30Oct2023 22:47:12.662] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[30Oct2023 22:47:12.706] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[30Oct2023 22:47:13.090] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[30Oct2023 22:47:13.106] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[30Oct2023 22:47:13.115] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[30Oct2023 22:47:13.132] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[30Oct2023 22:47:14.291] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[30Oct2023 22:47:15.079] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[30Oct2023 22:47:15.102] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[30Oct2023 22:47:15.108] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[30Oct2023 22:47:15.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[30Oct2023 22:47:21.747] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[30Oct2023 22:47:21.749] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
+[01Nov2023 11:49:07.598] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'biomimicry:dull_cactus_spike#inventory' referenced from: biomimicry:dull_cactus_spike#inventory: java.io.FileNotFoundException: biomimicry:models/item/dull_cactus_spike.json
+[01Nov2023 11:49:07.608] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'biomimicry:meat_compound#inventory' referenced from: biomimicry:meat_compound#inventory: java.io.FileNotFoundException: biomimicry:models/item/meat_compound.json
+[01Nov2023 11:49:07.608] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'biomimicry:cactus_spear#inventory' referenced from: biomimicry:cactus_spear#inventory: java.io.FileNotFoundException: biomimicry:models/item/cactus_spear.json
+[01Nov2023 11:49:11.886] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[01Nov2023 11:49:11.889] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01Nov2023 11:49:12.083] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Realtek HD Audio 2nd output (Realtek(R) Audio)
+[01Nov2023 11:49:12.085] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[01Nov2023 11:49:12.613] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[01Nov2023 11:49:13.698] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[01Nov2023 11:49:13.722] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01Nov2023 11:49:13.766] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[01Nov2023 11:49:13.816] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[01Nov2023 11:49:14.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[01Nov2023 11:49:14.249] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[01Nov2023 11:49:14.265] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01Nov2023 11:49:14.280] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01Nov2023 11:49:15.492] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01Nov2023 11:49:16.325] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[01Nov2023 11:49:16.353] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01Nov2023 11:49:16.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01Nov2023 11:49:16.367] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[01Nov2023 11:49:16.803] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[01Nov2023 11:49:16.806] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
 com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
-	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:399) ~[neoforge-20.2.4-beta.jar%23188!/:?]
-	at com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:188) ~[neoforge-20.2.4-beta.jar%23188!/:?]
-	at com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:44) ~[neoforge-20.2.4-beta.jar%23188!/:?]
+	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:399) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:188) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:44) ~[neoforge-20.2.20-beta.jar%23188!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[30Oct2023 22:48:03.120] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[01Nov2023 11:49:47.870] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:cactus_pulp_from_milling
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:47.904] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:sweet_berry_paste
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:pressing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:47.922] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:raw_leather
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:47.945] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:carrot_paste
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:pressing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:47.961] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:chopped_carrots
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:47.968] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:cactus_fiber_from_zinc_mesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createsifter:sifting'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:47.981] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:honey_from_brass_mesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createsifter:sifting'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:47.994] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:beef
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:pressing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:48.014] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:wheat_rice_mix
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:48.026] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:washed_cactus
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:48.040] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:meat_paste
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:48.051] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:lonely_sweet_berry
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:48.058] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:cactus_pulp_from_crushing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:48.068] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomimicry:clean_sweet_berry
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$12(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$static$13(RecipeManager.java:155) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:57) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decodeInner(ConditionalOps.java:140) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.neoforged.neoforge.common.conditions.ConditionalOps$ConditionalCodec.decode(ConditionalOps.java:112) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%23167!/:?]
+	at net.neoforged.neoforge.common.conditions.ICondition.getWithConditionalCodec(ICondition.java:32) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:161) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:39) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:79) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:120) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:130) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:143) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.loadLevels(WorldSelectionList.java:187) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:110) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.init(SelectWorldScreen.java:36) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.init(Screen.java:301) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.setScreen(Minecraft.java:1064) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.lambda$createNormalMenuOptions$7(TitleScreen.java:175) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:37) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:45) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:37) ~[neoforge-20.2.20-beta.jar%23187%23194!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:173) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:40) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.TitleScreen.mouseClicked(TitleScreen.java:348) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:93) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:425) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:90) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:96) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:196) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar%23147!/:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar%23119!/:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1225) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:776) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:231) ~[neoforge-20.2.20-beta.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-1.0.2.jar%23162!/:1.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-1.0.2.jar%23162!/:1.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23158!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[01Nov2023 11:49:48.080] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[01Nov2023 11:49:48.370] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[01Nov2023 11:49:53.821] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.2
+[01Nov2023 11:49:53.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Nov2023 11:49:53.985] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\neoforge-server.toml is not correct. Correcting
+[01Nov2023 11:49:53.990] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Nov2023 11:49:53.991] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[01Nov2023 11:49:53.992] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[01Nov2023 11:49:53.993] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[01Nov2023 11:49:53.993] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[01Nov2023 11:49:53.994] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[01Nov2023 11:49:53.994] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, neoforge:default_handler. 
+[01Nov2023 11:49:53.994] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[01Nov2023 11:50:04.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Nov2023 11:50:06.434] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:06.434] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:06.434] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:06.434] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:06.850] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:07.287] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:07.806] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:08.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:08.797] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Nov2023 11:50:09.298] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[01Nov2023 11:50:09.789] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[01Nov2023 11:50:10.319] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[01Nov2023 11:50:10.785] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[01Nov2023 11:50:11.299] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[01Nov2023 11:50:11.798] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[01Nov2023 11:50:12.298] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[01Nov2023 11:50:12.797] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[01Nov2023 11:50:13.293] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[01Nov2023 11:50:13.817] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[01Nov2023 11:50:14.294] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[01Nov2023 11:50:14.791] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[01Nov2023 11:50:15.285] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[01Nov2023 11:50:15.789] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[01Nov2023 11:50:16.496] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[01Nov2023 11:50:16.783] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[01Nov2023 11:50:17.305] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[01Nov2023 11:50:17.787] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[01Nov2023 11:50:18.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[01Nov2023 11:50:18.788] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[01Nov2023 11:50:19.283] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[01Nov2023 11:50:19.798] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[01Nov2023 11:50:20.305] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[01Nov2023 11:50:20.818] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[01Nov2023 11:50:21.298] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[01Nov2023 11:50:21.789] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[01Nov2023 11:50:22.320] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[01Nov2023 11:50:22.816] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[01Nov2023 11:50:23.307] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[01Nov2023 11:50:23.782] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[01Nov2023 11:50:24.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[01Nov2023 11:50:24.784] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[01Nov2023 11:50:25.285] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[01Nov2023 11:50:25.798] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[01Nov2023 11:50:26.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[01Nov2023 11:50:26.798] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[01Nov2023 11:50:27.297] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[01Nov2023 11:50:27.813] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[01Nov2023 11:50:28.297] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[01Nov2023 11:50:28.813] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[01Nov2023 11:50:29.301] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[01Nov2023 11:50:29.801] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[01Nov2023 11:50:30.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[01Nov2023 11:50:30.787] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[01Nov2023 11:50:31.297] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[01Nov2023 11:50:31.788] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[01Nov2023 11:50:32.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[01Nov2023 11:50:32.796] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[01Nov2023 11:50:33.293] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[01Nov2023 11:50:33.785] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[01Nov2023 11:50:34.298] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[01Nov2023 11:50:34.789] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[01Nov2023 11:50:35.296] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[01Nov2023 11:50:35.796] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[01Nov2023 11:50:36.285] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[01Nov2023 11:50:36.799] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[01Nov2023 11:50:37.294] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[01Nov2023 11:50:37.791] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[01Nov2023 11:50:38.299] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[01Nov2023 11:50:38.790] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[01Nov2023 11:50:39.297] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[01Nov2023 11:50:39.799] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[01Nov2023 11:50:40.281] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[01Nov2023 11:50:40.800] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[01Nov2023 11:50:41.290] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[01Nov2023 11:50:41.788] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[01Nov2023 11:50:42.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[01Nov2023 11:50:42.801] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[01Nov2023 11:50:43.301] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[01Nov2023 11:50:43.795] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[01Nov2023 11:50:44.086] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 39305 ms
+[01Nov2023 11:50:44.087] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[01Nov2023 11:50:44.525] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[01Nov2023 11:50:44.526] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[01Nov2023 11:50:45.598] [Netty Server IO #1/WARN] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Unknown custom packet payload: minecraft:brand
+[01Nov2023 11:50:45.941] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:945102cc] logged in with entity id 344 at (-28.5, 69.0, -34.5)
+[01Nov2023 11:50:46.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[01Nov2023 11:50:46.568] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[01Nov2023 11:50:52.008] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[01Nov2023 11:51:46.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Hitboxes: shown
+[01Nov2023 11:51:48.575] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Key bindings:
+[01Nov2023 11:51:48.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + A = Reload chunks
+[01Nov2023 11:51:48.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + B = Show hitboxes
+[01Nov2023 11:51:48.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + C = Copy location as /tp command, hold F3 + C to crash the game
+[01Nov2023 11:51:48.578] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + D = Clear chat
+[01Nov2023 11:51:48.578] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + G = Show chunk boundaries
+[01Nov2023 11:51:48.578] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + H = Advanced tooltips
+[01Nov2023 11:51:48.578] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + I = Copy entity or block data to clipboard
+[01Nov2023 11:51:48.579] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + L = Start/stop profiling
+[01Nov2023 11:51:48.579] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + N = Cycle previous game mode <-> spectator
+[01Nov2023 11:51:48.579] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + P = Pause on lost focus
+[01Nov2023 11:51:48.579] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + Q = Show this list
+[01Nov2023 11:51:48.580] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + S = Dump dynamic textures
+[01Nov2023 11:51:48.580] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + T = Reload resource packs
+[01Nov2023 11:51:48.580] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + Esc = Pause without pause menu (if pausing is possible)
+[01Nov2023 11:51:48.580] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + F4 = Open game mode switcher
+[01Nov2023 11:51:51.422] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Advanced tooltips: shown
+[01Nov2023 11:53:03.074] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 5 advancements
+[01Nov2023 11:55:28.938] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[01Nov2023 11:55:28.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01Nov2023 11:55:29.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01Nov2023 11:55:29.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01Nov2023 11:55:29.708] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[01Nov2023 11:55:29.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[01Nov2023 11:55:29.731] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[01Nov2023 11:55:29.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Nov2023 11:55:29.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Nov2023 11:55:29.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Nov2023 11:55:31.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01Nov2023 11:55:32.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01Nov2023 11:55:32.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01Nov2023 11:55:32.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01Nov2023 11:55:32.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Nov2023 11:55:32.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Nov2023 11:55:32.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Nov2023 11:55:35.035] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

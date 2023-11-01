@@ -11,8 +11,8 @@ import org.jetbrains.annotations.NotNull;
 import tm.wither.biomimicry.core.init.ModBlocks;
 
 public class WashedCactusBlock extends CactusBlock {
-    public WashedCactusBlock(Properties p_49795_) {
-        super(p_49795_);
+    public WashedCactusBlock(Properties properties) {
+        super(properties);
     }
 
     @Override
