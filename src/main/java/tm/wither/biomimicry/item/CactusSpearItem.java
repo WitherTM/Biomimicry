@@ -101,8 +101,8 @@ public class CactusSpearItem extends Item implements Vanishable {
      * the damage on the stack.
      */
     public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
-        pStack.hurtAndBreak(1, pAttacker, (p_43414_) -> {
-            p_43414_.broadcastBreakEvent(EquipmentSlot.MAINHAND);
+        pStack.hurtAndBreak(1, pAttacker, (livingEntity) -> {
+            livingEntity.broadcastBreakEvent(EquipmentSlot.MAINHAND);
         });
         return true;
     }

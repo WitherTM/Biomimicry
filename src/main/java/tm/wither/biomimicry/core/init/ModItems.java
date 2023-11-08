@@ -26,7 +26,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY)));
     public static final RegistryObject<Item> DULL_CACTUS_SPINE = ITEMS.register("dull_cactus_spine",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CACTUS_SPINE = ITEMS.register("dull_cactus_spine",
+    public static final RegistryObject<Item> CACTUS_SPINE = ITEMS.register("cactus_spine",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHOPPED_CARROTS = ITEMS.register("chopped_carrots",
             () -> new Item(new Item.Properties().food(ModFoods.CHOPPED_CARROTS)));
