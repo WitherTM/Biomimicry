@@ -16,10 +16,9 @@ out
 # gradle
 build
 .gradle
-local
-.properties
+
 
 # other
 eclipse
-run
-run-data
+runs
+local.properties
