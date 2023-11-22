@@ -21,4 +21,4 @@ build
 # other
 eclipse
 runs
-local.properties
+**/local.properties

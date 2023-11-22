@@ -46,29 +46,29 @@ public class Biomimicry {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.CACTUS_FIBER);
-            event.accept(ModItems.CACTUS_PULP);
-            event.accept(ModItems.RAW_LEATHER);
-            event.accept(ModItems.DRIED_CACTUS_PULP);
-            event.accept(ModItems.CACTUS_SPINE);
-            event.accept(ModItems.DULL_CACTUS_SPINE);
-            event.accept(ModItems.LONELY_SWEET_BERRY);
-            event.accept(ModItems.BROKEN_STICK);
-            event.accept(ModItems.MEAT_PASTE);
-            event.accept(ModItems.CARROT_PASTE);
+            event.accept(ModItems.CACTUS_FIBER.get());
+            event.accept(ModItems.CACTUS_PULP.get());
+            event.accept(ModItems.RAW_LEATHER.get());
+            event.accept(ModItems.DRIED_CACTUS_PULP.get());
+            event.accept(ModItems.CACTUS_SPINE.get());
+            event.accept(ModItems.DULL_CACTUS_SPINE.get());
+            event.accept(ModItems.LONELY_SWEET_BERRY.get());
+            event.accept(ModItems.BROKEN_STICK.get());
+            event.accept(ModItems.MEAT_PASTE.get());
+            event.accept(ModItems.CARROT_PASTE.get());
 
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.CACTUS_SPEAR);
+            event.accept(ModItems.CACTUS_SPEAR.get());
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.WASHED_CACTUS);
-            event.accept(ModBlocks.WHEAT_GRASS);
+            event.accept(ModBlocks.WASHED_CACTUS.get());
+            event.accept(ModBlocks.WHEAT_GRASS.get());
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.LONELY_SWEET_BERRY);
-            event.accept(ModItems.CHOPPED_CARROTS);
-            event.accept(ModItems.WHEAT_RICE_MIX);
+            event.accept(ModItems.LONELY_SWEET_BERRY.get());
+            event.accept(ModItems.CHOPPED_CARROTS.get());
+            event.accept(ModItems.WHEAT_RICE_MIX.get());
         }
     }
 
