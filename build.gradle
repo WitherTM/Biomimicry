@@ -5,6 +5,7 @@ plugins {
     id 'net.neoforged.gradle' version '[6.0.18,6.2)'
     id 'org.spongepowered.mixin' version '0.7.+'
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+    id 'com.modrinth.minotaur' version '2+'
 }
 
 version = mod_version
@@ -121,6 +122,31 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        name = 'tterrag maven'
+        url = 'https://maven.tterrag.com/'
+    }
+    maven {
+        // location of the maven that hosts JEI files before January 2023
+        name = "Progwml6's maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+    maven {
+        name = "Architectury Maven"
+        url = "https://maven.architectury.dev"
+    }
+}
+
     // Put repositories for dependencies here
     // NeoGradle automatically adds the Forge maven and Maven Central for you
 
@@ -129,7 +155,7 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
-}
+
 
 dependencies {
     // Specify the version of Minecraft to use.
@@ -137,26 +163,23 @@ dependencies {
     // The "userdev" classifier will be requested and setup by NeoGradle.
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
-    minecraft "net.neoforged:forge:${minecraft_version}-${neo_version}"
-
-    implementation fg.deobf("curse.maven:create-328085:4762216")
-    implementation fg.deobf("curse.maven:create-sifting-661938:4658387")
-    implementation fg.deobf("curse.maven:farmers-delight-398521:4679319")
-    implementation fg.deobf("curse.maven:slice-and-dice-659674:4688884")
-    // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
-    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
+   minecraft "net.neoforged:forge:${minecraft_version}-${neo_version}"
+   implementation fg.deobf("curse.maven:farmers-delight-398521:4679319")
+   implementation fg.deobf("curse.maven:slice-and-dice-659674:4763056")
+   implementation fg.deobf("curse.maven:kotlin-for-forge-351264:4578885")
+   implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
+   implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
+   implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+   implementation fg.deobf("dev.architectury:architectury-forge:${architectury_version}")
+   // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
+   // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
+   compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+   compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+   runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
     // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
-
-    // For more info:
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -217,4 +240,27 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+Properties properties = new Properties()
+def propertiesFile = project.rootProject.file('local.properties')
+if (propertiesFile.exists()) {
+    properties.load(propertiesFile.newDataInputStream())
+}
+def mr_token = properties.getProperty("modrinth.token")
+// build.gradle
+modrinth {
+    token = mr_token // Remember to have the MODRINTH_TOKEN environment variable set or else this will fail - just make sure it stays private!
+    projectId = "58eHwpHO" // This can be the project ID or the slug. Either will work!
+    versionNumber = mod_version // You don't need to set this manually. Will fail if Modrinth has this version already
+    versionType = "release" // This is the default -- can also be `beta` or `alpha`
+    uploadFile = jar // With Loom, this MUST be set to `remapJar` instead of `jar`!
+    gameVersions = ["1.20.1"] // Must be an array, even with only one version
+    dependencies { // A special DSL for creating dependencies
+        // scope.type
+        // The scope can be `required`, `optional`, `incompatible`, or `embedded`
+        // The type can either be `project` or `version`
+        required.project "create"
+        required.project "farmers-delight"
+        optional.project "create-sifting"
+    }
 }

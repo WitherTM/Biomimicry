@@ -6,7 +6,7 @@
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
 modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the the FML version. This is currently 47.
-loaderVersion="MIT" #mandatory
+loaderVersion="[47,)" #mandatory
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 license="GNU GPLv3"
 # A URL to refer people to when problems occur with this mod
@@ -65,14 +65,7 @@ description='''The act of copying animals' abililities for your own benefit.'''
     modId="create"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[0.5.1,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.biomimicry]]
-    modId="createsifter"
-    mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.7.2.d-9,)"
+    versionRange="[0.5.1.f,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.biomimicry]]
@@ -87,13 +80,6 @@ description='''The act of copying animals' abililities for your own benefit.'''
     mandatory=false
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[3.1.1,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.biomimicry]]
-    modId="kotlinforforge"
-    mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[4.3.0,)"
     ordering="NONE"
     side="BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
