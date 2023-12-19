@@ -1,0 +1,15 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "biomimicry:dried_cactus_pulp"
+  },
+  "result": {
+    "item": "minecraft:cactus_spine"
+  },
+  "rolls": [
+    {
+      "chance": 0.001,
+      "mesh": "diamond"
+    }
+  ]
+}

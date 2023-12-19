@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "biomimicry:item/meat_paste"
+    "layer0": "biomimicry:item/cheese_wheel"
   }
 }

@@ -2,7 +2,7 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "biomimicry:meat_paste"
+      "item": "biomimicry:raw_meatball"
     }
   ],
   "results": [

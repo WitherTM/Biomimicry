@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
 import tm.wither.biomimicry.entity.ThrownCactusSpear;
 
-public class ModEntities {
+public class ModEntityTypes {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, Biomimicry.MOD_ID);
     public static final RegistryObject<EntityType<ThrownCactusSpear>> THROWN_CACTUS_SPEAR =
