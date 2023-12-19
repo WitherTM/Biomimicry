@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "biomimicry:dried_cactus_pulp"
+  },
+  "result": {
+    "item": "minecraft:lime_dye"
+  },
+  "rolls": [
+    {
+      "chance": 0.3,
+      "mesh": "string"
+    },
+    {
+      "chance": 0.2,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.1,
+      "mesh": "iron"
+    }
+  ]
+}

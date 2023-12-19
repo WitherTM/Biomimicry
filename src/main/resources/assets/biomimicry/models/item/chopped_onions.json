@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "biomimicry:item/carrot_paste"
+    "layer0": "biomimicry:item/chopped_onions"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "biomimicry:wheat_rice_mix"
+  },
+  "result": {
+    "item": "minecraft:honey_bottle"
+  },
+  "rolls": [
+    {
+      "chance": 0.2,
+      "mesh": "string"
+    },
+    {
+      "chance": 0.26,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.44,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.5,
+      "mesh": "diamond"
+    }
+  ]
+}

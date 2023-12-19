@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "processingTime": 500,
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:milk"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomimicry:cheese_wheel"
+    }
+  ]
+}

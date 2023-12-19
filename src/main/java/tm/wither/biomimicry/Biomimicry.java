@@ -14,7 +14,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import tm.wither.biomimicry.core.init.*;
-
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Biomimicry.MOD_ID)
 public class Biomimicry {
@@ -28,7 +27,7 @@ public class Biomimicry {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModEntities.register(modEventBus);
+        ModEntityTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -48,11 +47,12 @@ public class Biomimicry {
             event.accept(ModItems.CACTUS_PULP);
             event.accept(ModItems.RAW_LEATHER);
             event.accept(ModItems.DRIED_CACTUS_PULP);
-            event.accept(ModItems.DULL_CACTUS_SPIKE);
+            event.accept(ModItems.DULL_CACTUS_SPINE);
             event.accept(ModItems.LONELY_SWEET_BERRY);
             event.accept(ModItems.BROKEN_STICK);
-            event.accept(ModItems.MEAT_COMPOUND);
-            event.accept(ModItems.CARROT_PASTE);
+            event.accept(ModItems.CHOPPED_ONIONS);
+            event.accept(ModItems.CHOPPED_CARROTS);
+
 
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -64,8 +64,11 @@ public class Biomimicry {
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.LONELY_SWEET_BERRY);
-            event.accept(ModItems.CHOPPED_CARROTS);
             event.accept(ModItems.WHEAT_RICE_MIX);
+            event.accept(ModItems.RAW_MEATBALL);
+            event.accept(ModItems.MEATBALL);
+            event.accept(ModBlocks.CHEESE_WHEEL);
+            event.accept(ModItems.CHEESE);
         }
     }
 

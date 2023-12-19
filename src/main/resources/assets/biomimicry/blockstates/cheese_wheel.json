@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "slices=0": {
+      "model": "biomimicry:block/cheese_wheel"
+    },
+    "slices=1": {
+      "model": "biomimicry:block/cheese_wheel_bite1"
+    },
+    "slices=2": {
+      "model": "biomimicry:block/cheese_wheel_bite2"
+    },
+    "slices=3": {
+      "model": "biomimicry:block/cheese_wheel_bite3"
+    },
+    "slices=4": {
+      "model": "biomimicry:block/cheese_wheel_bite4"
+    },
+    "slices=5": {
+      "model": "biomimicry:block/cheese_wheel_bite5"
+    },
+    "slices=6": {
+      "model": "biomimicry:block/cheese_wheel_bite6"
+    },
+    "slices=7": {
+      "model": "biomimicry:block/cheese_wheel_bite7"
+    }
+  }
+}
