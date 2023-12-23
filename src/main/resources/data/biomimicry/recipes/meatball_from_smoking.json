@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 2,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "biomimicry:raw_meatball"
+  },
+  "result": "biomimicry:meatball"
+}

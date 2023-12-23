@@ -1,11 +1,34 @@
 {
   "type": "create:mixing",
+  "heatRequirement": "heated",
+  "processingTime": 300,
   "ingredients": [
+    {
+      "item": "biomimicry:breadcrumbs"
+    },
+    {
+      "item": "biomimicry:breadcrumbs"
+    },
+    {
+      "item": "biomimicry:chopped_onions"
+    },
+    {
+      "item": "biomimicry:chopped_onions"
+    },
+    {
+      "item": "biomimicry:cheese"
+    },
+    {
+      "item": "biomimicry:cheese"
+    },
     {
       "item": "minecraft:egg"
     },
     {
       "item": "minecraft:egg"
+    },
+    {
+      "item": "biomimicry:lonely_sweet_berry"
     },
     {
       "amount": 200,
@@ -16,6 +39,9 @@
   "results": [
     {
       "item": "biomimicry:raw_meatball"
+    },
+    {
+      "item": "biomimicry:broken_stick"
     }
   ]
 }

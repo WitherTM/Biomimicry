@@ -1,6 +1,5 @@
 package tm.wither.biomimicry.core.init;
 
-import com.simibubi.create.AllBlocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -9,7 +8,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import tm.wither.biomimicry.Biomimicry;
-import tm.wither.biomimicry.block.BrassBasinBlock;
 import tm.wither.biomimicry.block.CheeseWheelBlock;
 import tm.wither.biomimicry.block.WashedCactusBlock;
 import tm.wither.biomimicry.block.WheatGrassBlock;
@@ -25,13 +23,10 @@ public class ModBlocks {
             () -> new WheatGrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS)));
     public static final RegistryObject<Block> CHEESE_WHEEL = registerBlock("cheese_wheel",
             ()-> new CheeseWheelBlock(BlockBehaviour.Properties.copy(Blocks.CAKE)));
-    public static final RegistryObject<Block> BRASS_BASIN = registerBlock("brass_basin",
-            () -> new BrassBasinBlock(BlockBehaviour.Properties.copy(AllBlocks.BASIN.get())));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        return toReturn;
+        return BLOCKS.register(name, block);
     }
 
     public static void register(IEventBus eventBus) {

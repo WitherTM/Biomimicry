@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": [
+    {
+      "item": "biomimicry:chopped_onions",
+      "count": 2
+    },
+    {
+      "chance": 0.2,
+      "item": "biomimicry:chopped_onions"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

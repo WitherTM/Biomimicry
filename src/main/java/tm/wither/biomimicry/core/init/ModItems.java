@@ -2,6 +2,8 @@ package tm.wither.biomimicry.core.init;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,7 +27,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LONELY_SWEET_BERRY = ITEMS.register("lonely_sweet_berry",
             () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY)));
+    public static final RegistryObject<Item> CACTUS_SPINE = ITEMS.register("cactus_spine",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DULL_CACTUS_SPINE = ITEMS.register("dull_cactus_spine",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BREADCRUMBS = ITEMS.register("breadcrumbs",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
             () -> new Item(new Item.Properties().food(ModFoods.CHEESE)));
@@ -39,11 +45,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.MEATBALL )));
     public static final RegistryObject<Item> WHEAT_RICE_MIX = ITEMS.register("wheat_rice_mix",
             () -> new Item(new Item.Properties()));
-
-
-
-    public static final RegistryObject<Item> CACTUS_SPEAR = ITEMS.register("cactus_spear",
-            () -> new CactusSpearItem(new Item.Properties()));
+    public static final RegistryObject<SwordItem> CACTUS_SPEAR = ITEMS.register("cactus_spear",
+            () -> new CactusSpearItem(Tiers.STONE, 7, -2.9F, new Item.Properties()));
 
 
     public static final RegistryObject<BlockItem> WASHED_CACTUS = ITEMS.register("washed_cactus",
