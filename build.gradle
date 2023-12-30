@@ -274,6 +274,8 @@ modrinth {
         // The type can either be `project` or `version`
         required.project "create"
         required.project "farmers-delight"
-        optional.project "create-sifting"
+        required.project "ex-nihilo-sequentia"
+        optional.project "jei"
+        optional.project "slice-and-dice"
     }
 }

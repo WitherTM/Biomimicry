@@ -76,10 +76,10 @@ description='''The act of copying animals' abililities for your own benefit.'''
     ordering="NONE"
     side="BOTH"
 [[dependencies.biomimicry]]
-    modId="sliceanddice"
-    mandatory=false
+    modId="exnihilosequentia"
+    mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[3.1.1,)"
+    versionRange="[5.0.0,)"
     ordering="NONE"
     side="BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
