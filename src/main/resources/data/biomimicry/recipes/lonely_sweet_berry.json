@@ -17,6 +17,6 @@
     }
   ],
   "tool": {
-    "item": "minecraft:shears"
+    "tag": "forge:tools/knives"
   }
 }

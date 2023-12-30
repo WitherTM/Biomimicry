@@ -26,10 +26,8 @@ public class ModItems {
     public static final RegistryObject<Item> BROKEN_STICK = ITEMS.register("broken_stick",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LONELY_SWEET_BERRY = ITEMS.register("lonely_sweet_berry",
-            () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY)));
+            () -> new Item(new Item.Properties().craftRemainder(ModItems.BROKEN_STICK.get()).food(ModFoods.SWEET_BERRY)));
     public static final RegistryObject<Item> CACTUS_SPINE = ITEMS.register("cactus_spine",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> DULL_CACTUS_SPINE = ITEMS.register("dull_cactus_spine",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BREADCRUMBS = ITEMS.register("breadcrumbs",
             () -> new Item(new Item.Properties()));
@@ -45,8 +43,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.MEATBALL )));
     public static final RegistryObject<Item> WHEAT_RICE_MIX = ITEMS.register("wheat_rice_mix",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CACTUS_SPEARHEAD = ITEMS.register("cactus_spearhead",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<SwordItem> CACTUS_SPEAR = ITEMS.register("cactus_spear",
-            () -> new CactusSpearItem(Tiers.STONE, 7, -2.9F, new Item.Properties()));
+            () -> new CactusSpearItem(Tiers.STONE, 8, -2.4F, new Item.Properties().durability(2148)));
 
 
     public static final RegistryObject<BlockItem> WASHED_CACTUS = ITEMS.register("washed_cactus",
@@ -55,6 +55,9 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.WHEAT_GRASS.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> CHEESE_WHEEL = ITEMS.register("cheese_wheel",
             () -> new BlockItem(ModBlocks.CHEESE_WHEEL.get(), new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<BlockItem> BRASS_BASIN = ITEMS.register("brass_basin",
+            () -> new BlockItem(ModBlocks.BRASS_BASIN.get(), new Item.Properties().stacksTo(1)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

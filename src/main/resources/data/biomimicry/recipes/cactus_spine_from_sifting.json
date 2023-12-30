@@ -9,7 +9,7 @@
   "rolls": [
     {
       "chance": 0.001,
-      "mesh": "diamond"
+      "mesh": "netherite"
     }
   ]
 }

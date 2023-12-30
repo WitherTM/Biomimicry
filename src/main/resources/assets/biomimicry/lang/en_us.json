@@ -2,11 +2,12 @@
   "item.biomimicry.cactus_fiber": "Cactus Fiber",
   "item.biomimicry.cactus_pulp": "Cactus Pulp",
   "item.biomimicry.raw_leather": "Raw Leather",
+  "item.biomimicry.breadcrumbs": "Breadcrumbs",
   "item.biomimicry.cactus_spine": "Cactus Spine",
   "item.biomimicry.dried_cactus_pulp": "Dried Cactus Pulp",
   "item.biomimicry.broken_stick": "Broken Stick",
   "item.biomimicry.lonely_sweet_berry": "Lonely Sweet Berry :(",
-  "item.biomimicry.dull_cactus_spine": "Dull Cactus Spine",
+  "item.biomimicry.cactus_spearhead": "Cactus Spearhead",
   "item.biomimicry.meatball": "Meatball",
   "item.biomimicry.cheese": "Cheese",
   "item.biomimicry.chopped_onions": "Chopped Onions",
@@ -17,5 +18,6 @@
   "block.biomimicry.wheat_grass": "Wheat Grass",
   "block.biomimicry.washed_cactus": "Washed Cactus",
   "block.biomimicry.cheese_wheel": "Cheese Wheel",
-  "creativetab.biomimicry_tab": "Create: Biomimicry"
+  "creativetab.biomimicry_tab": "Create: Biomimicry",
+  "datapack.exnihilo_disable_pack.name": "Ex Nihilo Disabled"
 }

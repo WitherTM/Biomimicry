@@ -20,13 +20,14 @@ import net.minecraft.world.level.pathfinder.PathComputationType;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import tm.wither.biomimicry.core.init.ModBlockStateProperties;
 import tm.wither.biomimicry.core.init.ModItems;
 
 public class CheeseWheelBlock extends Block {
     public CheeseWheelBlock(Properties pProperties) {
         super(pProperties);
-        this.registerDefaultState(this.stateDefinition.any().setValue(SLICES, Integer.valueOf(0)));
+        this.registerDefaultState(this.stateDefinition.any().setValue(SLICES, 0));
     }
         public static final int MAX_SLICES = 7;
         public static final IntegerProperty SLICES = ModBlockStateProperties.SLICES;
@@ -36,7 +37,7 @@ public class CheeseWheelBlock extends Block {
     
             
 
-        public VoxelShape getShape (BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext){
+        public VoxelShape getShape (BlockState pState, @NotNull BlockGetter pLevel, @NotNull BlockPos pPos, @NotNull CollisionContext pContext){
             return SHAPE_BY_SLICE[pState.getValue(SLICES)];
         }
 
@@ -57,7 +58,7 @@ public class CheeseWheelBlock extends Block {
                 int i = pState.getValue(SLICES);
                 pLevel.gameEvent(pPlayer, GameEvent.EAT, pPos);
                 if (i < MAX_SLICES) {
-                    pLevel.setBlock(pPos, pState.setValue(SLICES, Integer.valueOf(i + 1)), 3);
+                    pLevel.setBlock(pPos, pState.setValue(SLICES, i + 1), 3);
                 } else {
                     pLevel.removeBlock(pPos, false);
                     pLevel.gameEvent(pPlayer, GameEvent.BLOCK_DESTROY, pPos);
@@ -92,7 +93,7 @@ public class CheeseWheelBlock extends Block {
          * net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#getAnalogOutputSignal} whenever possible.
          * Implementing/overriding is fine.
          */
-        public int getAnalogOutputSignal (BlockState pBlockState, Level pLevel, BlockPos pPos){
+        public int getAnalogOutputSignal (BlockState pBlockState, @NotNull Level pLevel, BlockPos pPos){
             return getOutputSignal(pBlockState.getValue(SLICES));
         }
 

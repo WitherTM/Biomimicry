@@ -19,7 +19,6 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.WASHED_CACTUS.get());
                       output.accept(ModItems.CACTUS_PULP.get());
                       output.accept(ModItems.DRIED_CACTUS_PULP.get());
-                      output.accept(ModItems.DULL_CACTUS_SPINE.get());
                       output.accept(ModItems.CACTUS_SPINE.get());
                       output.accept(ModItems.CACTUS_FIBER.get());
                       output.accept(ModItems.RAW_LEATHER.get());
@@ -34,6 +33,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.WHEAT_GRASS.get());
                       output.accept(ModItems.WHEAT_RICE_MIX.get());
                       output.accept(ModItems.CHOPPED_CARROTS.get());
+                      output.accept(ModItems.CACTUS_SPEARHEAD.get());
                       output.accept(ModItems.CACTUS_SPEAR.get());
 
                     })

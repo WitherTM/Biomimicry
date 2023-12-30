@@ -1,5 +1,6 @@
 package tm.wither.biomimicry.core.init;
 
+import com.simibubi.create.AllBlocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -23,6 +24,8 @@ public class ModBlocks {
             () -> new WheatGrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS)));
     public static final RegistryObject<Block> CHEESE_WHEEL = registerBlock("cheese_wheel",
             ()-> new CheeseWheelBlock(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> BRASS_BASIN = registerBlock("brass_basin",
+            ()-> new CheeseWheelBlock(BlockBehaviour.Properties.copy(AllBlocks.BASIN.get())));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -22,6 +22,14 @@
     {
       "chance": 0.1,
       "mesh": "diamond"
+    },
+    {
+      "chance": 0.125,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.15,
+      "mesh": "netherite"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "biomimicry:cactus_spine"
+    },
+    {
+      "item": "biomimicry:cactus_spine"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+
+  ],
+  "result": {
+    "item": "biomimicry:cactus_spearhead"
+  }
+}

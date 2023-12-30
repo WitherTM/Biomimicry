@@ -14,7 +14,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import tm.wither.biomimicry.core.init.ModBlocks;
 import tm.wither.biomimicry.core.init.ModCreativeModeTabs;
-import tm.wither.biomimicry.core.init.ModEntityTypes;
 import tm.wither.biomimicry.core.init.ModItems;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Biomimicry.MOD_ID)
@@ -29,7 +28,6 @@ public class Biomimicry {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModEntityTypes.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);

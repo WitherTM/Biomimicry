@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": [
+    {
+      "item": "biomimicry:breadcrumbs",
+      "count": 4
+    },
+    {
+      "chance": 0.4,
+      "count": 3,
+      "item": "biomimicry:breadcrumbs"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

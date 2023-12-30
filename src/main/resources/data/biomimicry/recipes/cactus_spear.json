@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "tag": "forge:rods"
+    },
+    "H": {
+      "item": "biomimicry:cactus_spearhead"
+    }
+  },
+  "pattern": [
+    "  H",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "item": "biomimicry:cactus_spear"
+  },
+  "show_notification": true
+}
