@@ -9,6 +9,7 @@
   "block.biomimicry.washed_cactus": "Gewassen Cactus",
   "item.biomimicry.chopped_carrots": "Gehakte Wortels",
   "block.biomimicry.wheat_grass": "Tarwegras",
+  "item.biomimicry.breadcrumbs": "Broodkruimels",
   "item.biomimicry.wheat_rice_mix": "Tarwe-Rijst Mix",
   "item.biomimicry.cactus_spear": "Cactus Speer",
   "item.biomimicry.meatball": "Gehaktbal",
@@ -19,4 +20,5 @@
   "creativetab.biomimicry_tab": "Create: Biomimicry",
   "datapack.exnihilo_disable_pack.name": "Ex Nihilo Uitgeschakeld",
   "item.biomimicry.cactus_spearhead": "Cactus Speerpunt"
+
 }
