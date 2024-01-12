@@ -1,6 +1,3 @@
-
-0.2 is out now!
-
 Available for Curseforge and Modrinth
 
 Welcome to Create: Biomimicry!
