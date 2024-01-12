@@ -1,0 +1,26 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "biomimicry:dried_cactus_pulp"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.0001,
+      "item": "biomimicry:cactus_spine"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "chance": 0.4,
+      "item": "minecraft:green_dye"
+    },
+    {
+      "chance": 0.16,
+      "item": "biomimicry:cactus_fiber"
+    }
+  ]
+}

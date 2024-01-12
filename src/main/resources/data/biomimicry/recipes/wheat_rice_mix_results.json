@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "biomimicry:wheat_rice_mix"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.21,
+      "item": "farmersdelight:rice"
+    },
+    {
+      "chance": 0.7,
+      "item": "minecraft:bowl"
+    },
+    {
+      "chance": 0.26,
+      "item": "minecraft:honey_bottle"
+    }
+  ]
+}
