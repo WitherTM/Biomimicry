@@ -35,6 +35,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.CHOPPED_CARROTS.get());
                       output.accept(ModItems.CACTUS_SPEARHEAD.get());
                       output.accept(ModItems.CACTUS_SPEAR.get());
+                      output.accept(ModItems.EMPTY_SAC.get());
 
                     })
                     .build());

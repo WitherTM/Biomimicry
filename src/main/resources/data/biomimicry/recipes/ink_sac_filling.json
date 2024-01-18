@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "biomimicry:empty_sac"
+    },
+    {
+      "fluid": "create_enchantment_industry:ink",
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "conditions": [{
+    "type": "forge:mod_loaded",
+    "modid": "create_enchantment_industry"
+  }]
+}
