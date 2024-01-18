@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "none",
+  "processingTime": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "biomimicry:empty_sac"
+    },
+    {
+      "amount": 125,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ]
+}

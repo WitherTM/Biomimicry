@@ -43,6 +43,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.MEATBALL )));
     public static final RegistryObject<Item> WHEAT_RICE_MIX = ITEMS.register("wheat_rice_mix",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMPTY_SAC = ITEMS.register("empty_sac",
+            () -> new Item(new Item.Properties()));
 
 
     public static final RegistryObject<Item> CACTUS_SPEARHEAD = ITEMS.register("cactus_spearhead",
