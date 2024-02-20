@@ -43,7 +43,6 @@ public class CheeseWheelBlock extends Block {
 
         public InteractionResult use (BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand
         pHand, BlockHitResult pHit){
-            ItemStack itemstack = pPlayer.getItemInHand(pHand);
             if (pLevel.isClientSide) {
                 if (click(pLevel, pPos, pState, pPlayer).consumesAction()) {
                     return InteractionResult.SUCCESS;
@@ -73,8 +72,8 @@ public class CheeseWheelBlock extends Block {
          * returns its solidified counterpart.
          * Note that this method should ideally consider only the specific direction passed in.
          */
-        public BlockState updateShape (BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor
-        pLevel, BlockPos pCurrentPos, BlockPos pFacingPos){
+        public @NotNull BlockState updateShape (@NotNull BlockState pState, @NotNull Direction pFacing, @NotNull BlockState pFacingState, @NotNull LevelAccessor
+        pLevel, @NotNull BlockPos pCurrentPos, @NotNull BlockPos pFacingPos){
             return pFacing == Direction.DOWN && !pState.canSurvive(pLevel, pCurrentPos) ? Blocks.AIR.defaultBlockState() : super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
         }
 
@@ -85,14 +84,6 @@ public class CheeseWheelBlock extends Block {
         protected void createBlockStateDefinition (StateDefinition.Builder < Block, BlockState > pBuilder){
             pBuilder.add(SLICES);
         }
-
-        /**
-         * Returns the analog signal this block emits. This is the signal a comparator can read from it.
-         *
-         * @deprecated call via {@link
-         * net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#getAnalogOutputSignal} whenever possible.
-         * Implementing/overriding is fine.
-         */
         public int getAnalogOutputSignal (BlockState pBlockState, @NotNull Level pLevel, BlockPos pPos){
             return getOutputSignal(pBlockState.getValue(SLICES));
         }
@@ -100,12 +91,6 @@ public class CheeseWheelBlock extends Block {
         public static int getOutputSignal ( int pEaten){
             return (7 - pEaten) * 2;
         }
-
-        /**
-         * @deprecated call via {@link
-         * net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#hasAnalogOutputSignal} whenever possible.
-         * Implementing/overriding is fine.
-         */
         public boolean hasAnalogOutputSignal (BlockState pState){
             return true;
         }

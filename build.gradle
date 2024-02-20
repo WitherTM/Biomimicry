@@ -182,6 +182,7 @@ dependencies {
   // implementation fg.deobf("maven.modrinth:ex-nihilo-sequentia:${exnihilo_version}")
    implementation fg.deobf("maven.modrinth:farmers-delight:1.20.1-1.2.3")
    implementation fg.deobf("maven.modrinth:slice-and-dice:3.2.0")
+   implementation fg.deobf("maven.modrinth:${create_enchantment_industry_project_id}:${create_enchantment_industry_version_id}")
    implementation 'thedarkcolour:kotlinforforge:4.7.0'
    // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
@@ -269,7 +270,8 @@ modrinth {
     versionType = "release" // This is the default -- can also be `beta` or `alpha`
     uploadFile = jar // With Loom, this MUST be set to `remapJar` instead of `jar`!
     gameVersions = ["1.20.1"] // Must be an array, even with only one version
-    changelog = "Various recipe changes. Is now also on Forge!"
+    changelog = "- Added the Ink Sac Recipe" +
+                "- Added the Empty Sac"
     dependencies { // A special DSL for creating dependencies
         // scope.type
         // The scope can be `required`, `optional`, `incompatible`, or `embedded`
@@ -279,6 +281,7 @@ modrinth {
         optional.project "ex-nihilo-sequentia"
         optional.project "jei"
         optional.project "slice-and-dice"
+        optional.project "create-enchantment-industry"
     }
     loaders = ["forge", "neoforge"]
 }

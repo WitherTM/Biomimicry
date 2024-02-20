@@ -59,8 +59,6 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.WHEAT_GRASS.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> CHEESE_WHEEL = ITEMS.register("cheese_wheel",
             () -> new BlockItem(ModBlocks.CHEESE_WHEEL.get(), new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<BlockItem> BRASS_BASIN = ITEMS.register("brass_basin",
-            () -> new BlockItem(ModBlocks.BRASS_BASIN.get(), new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {
