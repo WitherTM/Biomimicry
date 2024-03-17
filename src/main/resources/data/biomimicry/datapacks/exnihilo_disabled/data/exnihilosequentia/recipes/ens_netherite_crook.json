@@ -1,4 +1,8 @@
 {
+  "conditions": {
+    "modid": "exnihilosequentia",
+    "type": "forge:mod_loaded"
+  },
   "type": "minecraft:smithing_transform",
   "addition": {
     "tag": "forge:ingots/netherite"

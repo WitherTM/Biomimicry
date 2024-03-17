@@ -1,4 +1,8 @@
 {
+  "conditions": {
+    "modid": "exnihilosequentia",
+    "type": "forge:mod_loaded"
+  },
   "type": "minecraft:smoking",
   "category": "food",
   "cookingtime": 100,

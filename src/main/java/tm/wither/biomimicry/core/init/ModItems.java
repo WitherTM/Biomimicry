@@ -46,7 +46,6 @@ public class ModItems {
     public static final RegistryObject<Item> EMPTY_SAC = ITEMS.register("empty_sac",
             () -> new Item(new Item.Properties()));
 
-
     public static final RegistryObject<Item> CACTUS_SPEARHEAD = ITEMS.register("cactus_spearhead",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<SwordItem> CACTUS_SPEAR = ITEMS.register("cactus_spear",

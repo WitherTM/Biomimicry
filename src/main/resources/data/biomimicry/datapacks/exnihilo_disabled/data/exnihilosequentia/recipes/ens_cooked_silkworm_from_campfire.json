@@ -1,4 +1,8 @@
 {
+  "conditions": {
+    "modid": "exnihilosequentia",
+    "type": "forge:mod_loaded"
+  },
   "type": "minecraft:campfire_cooking",
   "category": "food",
   "cookingtime": 600,

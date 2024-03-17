@@ -1,4 +1,8 @@
 {
+  "conditions": {
+    "modid": "exnihilosequentia",
+    "type": "forge:mod_loaded"
+  },
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "group": "exnihilosequentia",

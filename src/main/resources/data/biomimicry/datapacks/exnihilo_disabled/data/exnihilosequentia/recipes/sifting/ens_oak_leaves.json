@@ -1,4 +1,8 @@
 {
+  "conditions": {
+    "modid": "exnihilosequentia",
+    "type": "forge:mod_loaded"
+  },
   "type": "exnihilosequentia:sifting",
   "input": {
     "item": "minecraft:oak_leaves"

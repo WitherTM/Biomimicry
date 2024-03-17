@@ -1,4 +1,8 @@
 {
+  "conditions": {
+    "modid": "exnihilosequentia",
+    "type": "forge:mod_loaded"
+  },
   "type": "exnihilosequentia:harvest",
   "input": {
     "item": "exnihilosequentia:infested_leaves"
